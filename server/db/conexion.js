@@ -1,5 +1,4 @@
 
-
 const mysql = require("mysql2")
 
 exports.coneccion = () => {
@@ -9,7 +8,7 @@ exports.coneccion = () => {
             user: "root",
             port: 3306,
             password: "",
-            database: "db_hotel;",
+            database: "db_hotel",
             waitForConnections: true,
             connectionLimit: 10,
             queueLimit: 0
